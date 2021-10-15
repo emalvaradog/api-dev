@@ -1,5 +1,4 @@
 const express = require('express');
-// const cors = require('cors');
 
 const productsRouter = require('./productsRouter');
 const categoriesRotuer = require('./categoriesRouter');
