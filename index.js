@@ -1,6 +1,6 @@
 const express = require('express');
 const routerApi = require('./routes');
-const cors = require('cors');
+// const cors = require('cors');
 
 const {
   errorHandler,
@@ -23,7 +23,7 @@ const corsOptions = {
   },
 };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 app.get('/home', (req, res) => {
   res.send('Home');
