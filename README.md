@@ -3,7 +3,7 @@
 This is my first api created with node using express.
 
 - Data is generated using [faker](https://www.npmjs.com/package/faker)
-- Api deployed using [heroku](https://warm-caverns-03782.herokuapp.com/)
+- Api deployed using [heroku](https://www.heroku.com/)
 - Data is validated using [Joi](https://joi.dev/api/)
 
 **_Endpoints_**:
