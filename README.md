@@ -1,45 +1,33 @@
-# **API-DEV**
+# Api Dev
+Api built with Express.js, faker, joi and deployed in heroku. This api is based on an e-commerce and has different endpoints such as [products](https://warm-caverns-03782.herokuapp.com/api/v1/products), [users](https://warm-caverns-03782.herokuapp.com/api/v1/users) and [categories](https://warm-caverns-03782.herokuapp.com/api/v1/categories)
 
-This is my first api created with node using express.
+## Methods:
+### GET:
+-   **_Get all_**  ---> /api/v1/{endpoint}/
+-   **_Get a specific_**  ---> /api/v1/{endpoint}/id
+### POST / PUT / PATCH:
+-   **_Products_**:
+    -   name: String
+    -   price: Number
+    -   image: URL
+-   **_Users_**:
+    -   name: String,
+    -   address: String,
+    -   phone: Number,
+    -   email: email
+-   **_Categories_**:
+    -   name: String,
+    -   products: Number
+### DELETE:
+-   **_Delete one_**  ---> /api/v1/{endpoint}/id
+## Process
+### Built with:
+- NodeJS
+- ExpressJS
+- Faker
+- Joi
+- Heroku
 
-- Data is generated using [faker](https://www.npmjs.com/package/faker)
-- Api deployed using [heroku](https://www.heroku.com/)
-- Data is validated using [Joi](https://joi.dev/api/)
 
-**_Endpoints_**:
-
-- [/api/v1/products](https://warm-caverns-03782.herokuapp.com/api/v1/products)
-- [/api/v1/users](https://warm-caverns-03782.herokuapp.com/api/v1/users)
-- [/api/v1/categories](https://warm-caverns-03782.herokuapp.com/api/v1/categories)
-
-‎
-
-# Methods:
-
-- **GET**:
-  - **_Get all_** ---> /api/v1/{endpoint}/
-  - **_Get a specific_** ---> /api/v1/{endpoint}/id
-- **POST / PUT / PATCH:**
-
-  - **_Products_**:
-    - name: String
-    - price: Number
-    - image: URL
-  - **_Users_**:
-    - name: String,
-    - address: String,
-    - phone: Number,
-    - email: email
-  - **_Categories_**:
-    - name: String,
-    - products: Number
-
-- **DELETE**
-  - **_Delete one_** ---> /api/v1/{endpoint}/id
-
-‎
-
-(o\_
-
-// \\\
-v _/ _
+## Authors:
+Made with 💜 by [emanuelalvaradog](https://github.com/emanuelalvaradog)
